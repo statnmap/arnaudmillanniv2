@@ -5,15 +5,20 @@ Authors@R:
     person(given = "Arnaud",
            family = "Millan",
            role = c("aut", "cre"),
-           email = "amillan@fonroche-lighting.com"
-Description: Mon package va realiser les deux fonctions demandees.
+           email = "amillan@fonroche-lighting.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Mon package va realiser les deux fonctions
+    demandees.
 License: GPL-3
-Encoding: UTF-8
-LazyData: true
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+Imports: 
+    assertthat
 Suggests: 
     knitr,
     rmarkdown,
     testthat
-VignetteBuilder: knitr
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1

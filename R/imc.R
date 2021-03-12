@@ -3,6 +3,7 @@
 #' @param masse valeur numerique en kg superieure a 0
 #' @param taille valeur numerique en m superieure a 0
 #'
+#' @importFrom assertthat assert_that
 #' @return la valeur de imc
 #' @export
 #'
