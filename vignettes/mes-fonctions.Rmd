@@ -17,6 +17,9 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(arnaudmillanniv2)
 ```
+## Calcul de l'Indice de Masse Corporelle IMC
+
+La fonction imc() divise la variable masse en kg (strictement supérieure à zéro) par le carré de la variable taille en m (strictement supérieure à zéro)
 
 ```{r}
 
@@ -24,4 +27,22 @@ library(arnaudmillanniv2)
 imc(masse = 80, taille = 1.80)
 
 ```
+
+## Importation des tous les onglets d'un xlsx dans un objet list
+
+La function prend en entrée un fichier xlsx :
+- lire le fichier
+- récupérer les noms des onglets
+- pour les tableaux de chaque onglet les intégrer à une list avec le nom originel de l'onglet
+- utiliser le package {readxl}
+- n'accepter que des fichiers .xlsx
+
+```{r}
+
+
+# exemple :
+multi_import_excel(system.file("extdata","datasets.xlsx",package = "arnaudmillanniv2"))
+```
+
+
 
