@@ -15,5 +15,16 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-library(arnaudmillanniv2)
+# library(arnaudmillanniv2)
 ```
+
+```{r}
+imc <- function(masse, taille) {
+  masse/(taille * taille)
+}
+
+# exemple d'utilisation de la fonction imc()
+imc(masse = 80, taille = 1.80)
+
+```
+
