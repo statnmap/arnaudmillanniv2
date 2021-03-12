@@ -14,7 +14,7 @@ usethis::use_vignette("mes-fonctions")
 usethis::use_git()
 
 # créer le fichier R d'une foncrion dans /R
-usethis::use_r("dire_bonjour")
+usethis::use_r("imc")
 usethis::use_r("get_6_first_lines")
 # Créer un fichier d'explication rapide du package
 usethis::use_readme_rmd()
