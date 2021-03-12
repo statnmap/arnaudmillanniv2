@@ -3,6 +3,8 @@
 export(imc)
 export(multi_import_excel)
 importFrom(assertthat,assert_that)
+importFrom(assertthat,has_extension)
+importFrom(assertthat,is.readable)
 importFrom(purrr,map)
 importFrom(readxl,excel_sheets)
 importFrom(readxl,read_xlsx)

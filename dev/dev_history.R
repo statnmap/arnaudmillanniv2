@@ -23,6 +23,9 @@ usethis::use_test(name = "imc")
 
 
 usethis::use_r("multi_import_excel")
+# Créer un test
+usethis::use_test(name = "multi_import_excel")
+
 # Créer un fichier d'explication rapide du package
 usethis::use_readme_rmd()
 usethis::use_gitlab_ci()
