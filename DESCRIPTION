@@ -1,19 +1,24 @@
 Package: arnaudmillanniv2
-Title: What the Package Does (One Line, Title Case)
+Title: Package Pour l'Exam R Niv2
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Arnaud",
+           family = "Millan",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "amillan@fonroche-lighting.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: Mon package va realiser les deux fonctions
+    demandees.
 License: GPL-3
+Imports: 
+    assertthat
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: 
+    knitr
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
-Suggests: 
-    knitr,
-    rmarkdown
-VignetteBuilder: knitr
