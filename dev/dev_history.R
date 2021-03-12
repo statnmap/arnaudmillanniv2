@@ -15,14 +15,17 @@ usethis::use_git()
 
 # créer le fichier R d'une foncrion dans /R
 usethis::use_r("imc")
+
+# Créer un fichier pour les tests des fonctions du package
+usethis::use_testthat()
+# Créer un test
+usethis::use_test(name = "imc")
+
+
 usethis::use_r("get_6_first_lines")
 # Créer un fichier d'explication rapide du package
 usethis::use_readme_rmd()
 usethis::use_gitlab_ci()
-# Créer un fichier pour les tests des fonctions du package
-usethis::use_testthat()
-# Créer un test
-usethis::use_test(name = "get_6_first_lines")
 
 # encapsuler des datas
 usethis::use_data_raw("my_data")
