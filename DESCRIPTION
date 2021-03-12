@@ -11,7 +11,9 @@ Description: Mon package va realiser les deux fonctions
     demandees.
 License: GPL-3
 Imports: 
-    assertthat
+    assertthat,
+    purrr,
+    readxl
 Suggests: 
     knitr,
     rmarkdown,

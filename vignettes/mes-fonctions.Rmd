@@ -39,19 +39,6 @@ La function prend en entrée un fichier xlsx :
 
 ```{r}
 
-multi_import_excel <- function(file) {
-  # recuperer les noms des onglets
-  onglets <- excel_sheets(file)
-  
-  # creer une liste de dataframe correspondant aux tableau de onglets
-  liste <- map(onglets, ~read_xlsx(file, sheet = .x))
-  
-  # renommer les elements de la liste
-  names(liste) <- onglets
-  
-  # renvoyer la liste
-  return(liste)
-}
 
 # exemple :
 multi_import_excel(system.file("extdata","datasets.xlsx",package = "arnaudmillanniv2"))

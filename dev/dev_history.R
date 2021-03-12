@@ -22,7 +22,7 @@ usethis::use_testthat()
 usethis::use_test(name = "imc")
 
 
-usethis::use_r("get_6_first_lines")
+usethis::use_r("multi_import_excel")
 # Créer un fichier d'explication rapide du package
 usethis::use_readme_rmd()
 usethis::use_gitlab_ci()
