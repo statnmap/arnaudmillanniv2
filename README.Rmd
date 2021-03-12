@@ -1,0 +1,49 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# arnaudmillanniv2
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of arnaudmillanniv2 is to respond to the R niv 2 exam
+
+## Installation
+
+
+And the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("AMillanFL/arnaudmillanniv2")
+```
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(arnaudmillanniv2)
+## basic example code
+
+# exemple d'utilisation de la fonction imc()
+imc(masse = 80, taille = 1.80)
+
+
+multi_import_excel(system.file("extdata","datasets.xlsx",package = "arnaudmillanniv2"))
+
+
+```
+
+
