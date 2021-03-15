@@ -31,6 +31,7 @@ imc(masse = 80, taille = 1.80)
 ## Importation des tous les onglets d'un xlsx dans un objet list
 
 La function prend en entrée un fichier xlsx :
+
 - lire le fichier
 - récupérer les noms des onglets
 - pour les tableaux de chaque onglet les intégrer à une list avec le nom originel de l'onglet

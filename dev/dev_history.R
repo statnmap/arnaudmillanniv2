@@ -39,6 +39,13 @@ dir.create("inst/extdata")
 
 usethis::use_news_md()
 
+# CI and github
+usethis::use_readme_rmd()
+usethis::use_github_action_check_standard()
+usethis::use_github_action("pkgdown")
+usethis::use_coverage()
+usethis::use_github_action("test-coverage")
+
 # Je teste ma vignette
 devtools::build_vignettes()
 # Outil pour gérer les dépendances
